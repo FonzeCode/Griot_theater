@@ -1,0 +1,224 @@
+* {
+    /* border: 2px red; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    /* gap: 0.2px; */
+    /* background-color: black; */
+
+}
+
+.grid-container > div {
+    /* background-color: black; */
+    text-align: center;
+
+}
+
+.grid-container-2 {
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container-2 > div {
+    background-color: white;
+    text-align: center;
+}
+
+.navbar-container {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+    /* position: fixed; */
+}
+
+.navlist {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* position: fixed; */
+}
+
+.nav-item-1 {
+    display: flex;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.nav-item {
+    margin: 0%;
+    min-width: 6%;
+}
+
+.main-image-container {
+    /* display: flex; */
+    background-image: url(/images/theater-image-background.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 400px;  
+}
+
+.featured-shows {
+    display: flex;
+    position:absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8em;
+    color: white;
+    margin-top: 8%;
+    margin-left: 20%;
+    font-stretch:expanded;
+    font-weight:lighter;
+    text-align:center;
+  
+}
+.date-container {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.date {
+    display: flex;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: lightgray;
+
+}
+
+.date-border {
+    position:relative;
+    font-size: 25px;
+    padding: 10px;
+    /* background-color: light rgb(210, 24, 24); */
+    color: #222;
+    border: 1px solid gray;
+    width: 100%;
+
+}
+
+.flyer {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left:20%;
+    margin-right:20%;
+    border-bottom: 2px solid black;
+    margin-bottom: 2%;
+    /* width: 100%; */
+}
+
+.flyer-tiles-b {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    
+}
+
+.thumbnail-img {
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+.thumbnail-img-1 {
+    display: flex;
+    width: 200px;
+    height: 130px;    
+} 
+
+.flyer-1 {
+    display:block;
+    list-style-type: none;
+    margin-top: 0%;
+    padding-top:0%;
+    text-align:left;
+    /* border-bottom: 2px solid black; */
+
+}
+
+.readmore{
+    display:flex;
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(216, 168, 46);
+    color: white;
+    font-size: 15px;
+    padding: .5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: start;
+    align-self: start;
+    margin-top: 50px ;
+    margin-left: 0px;
+    border-radius: 6%;
+    
+}
+
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+    height: 150px;
+   
+}
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
